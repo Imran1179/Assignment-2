@@ -636,5 +636,40 @@ height: 62px;
     .banner-tittle{
         text-
     }
+    .curriculam{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .big-card{
+        display: none;
+    }
+    .small-card{
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 0;
+    }
+    .curriculam-1, .curriculam-2, .curriculam-3{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .curriculum-tittle{
+        text-align: start;
+    }
+    .small-card-1{
+        margin-bottom: 10px;
+    }
+    .stories-tittle{
+        text-align: start;
+    }
+    .footer{
+        height: 1800px;
+    }
+    .footer-column-2-touch{
+        flex-direction: column;
+    }
+    .footer-flex{
+        flex-direction: column;
+    }
 
 }
